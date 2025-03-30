@@ -19,15 +19,15 @@ public class Movie {
     private Integer movieId;
 
     @Column(nullable = false, length = 200)
-    @NotBlank(message = "Please provide movie's  title.")
+    @NotBlank(message = "Please provide movie's title!")
     private String title;
 
     @Column(nullable = false)
-    @NotBlank(message = "Please provide movie's director name.")
+    @NotBlank(message = "Please provide movie's director!")
     private String director;
 
     @Column(nullable = false)
-    @NotBlank(message = "Please provide movie's studio name.")
+    @NotBlank(message = "Please provide movie's studio!")
     private String studio;
 
     @ElementCollection
@@ -35,10 +35,9 @@ public class Movie {
     private Set<String> movieCast;
 
     @Column(nullable = false)
-    private  Integer releaseYear;
+    private Integer releaseYear;
 
     @Column(nullable = false)
-    @NotBlank(message = "Please provide movie's poster.")
+    @NotBlank(message = "Please provide movie's poster!")
     private String poster;
-
 }
