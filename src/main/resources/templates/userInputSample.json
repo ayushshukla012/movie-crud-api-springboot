@@ -1,0 +1,136 @@
+[
+  {
+    "movieId" : 1,
+    "title" : "Avengers: Infinity War",
+    "director" : "Russo Brothers and Stan Lee",
+    "studio" : "Marvel Studios",
+    "movieCast" : ["RDJ", "Chris Evans", "Scarlett Johnsson", "Chris Hemsworth"],
+    "releaseYear" : "2018",
+    "poster" : "default.png",
+    "posterUrl" : "url"
+  },
+
+  {
+    "movieId" : 2,
+    "title" : "Avengers: Endgame",
+    "director" : "Brothers",
+    "studio" : "Warner Brother",
+    "movieCast" : ["Govinda", "Amitabh", "Scarlett Johnsson"],
+    "releaseYear" : "2020",
+    "poster" : "default.png",
+    "posterUrl" : "url"
+  },
+
+  {
+    "movieId" : 4,
+    "title" : "Thor",
+    "director" : "Russo Brothers",
+    "studio" : "Marvel Studios",
+    "movieCast" : ["Chris Hamsworth", "Chris Evans", "Scarlett Johnsson"],
+    "releaseYear" : "2021",
+    "poster" : "default.png",
+    "posterUrl" : "url"
+  },
+
+  {
+    "movieId": 5,
+    "title": "Iron Man",
+    "director": "Jon Favreau",
+    "studio": "Marvel Studios",
+    "movieCast": ["Robert Downey Jr.", "Gwyneth Paltrow", "Jeff Bridges"],
+    "releaseYear": "2008",
+    "poster": "default.png",
+    "posterUrl": "url"
+  },
+  {
+    "movieId": 6,
+    "title": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "studio": "Warner Bros.",
+    "movieCast": ["Christian Bale", "Heath Ledger", "Gary Oldman"],
+    "releaseYear": "2008",
+    "poster": "default.png",
+    "posterUrl": "url"
+  },
+  {
+    "movieId": 7,
+    "title": "Spider-Man: No Way Home",
+    "director": "Jon Watts",
+    "studio": "Marvel Studios",
+    "movieCast": ["Tom Holland", "Zendaya", "Benedict Cumberbatch"],
+    "releaseYear": "2021",
+    "poster": "default.png",
+    "posterUrl": "url"
+  },
+  {
+    "movieId": 8,
+    "title": "Black Panther",
+    "director": "Ryan Coogler",
+    "studio": "Marvel Studios",
+    "movieCast": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o"],
+    "releaseYear": "2018",
+    "poster": "default.png",
+    "posterUrl": "url"
+  },
+  {
+    "movieId": 9,
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "studio": "Warner Bros.",
+    "movieCast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+    "releaseYear": "2010",
+    "poster": "default.png",
+    "posterUrl": "url"
+  },
+  {
+    "movieId": 10,
+    "title": "Guardians of the Galaxy",
+    "director": "James Gunn",
+    "studio": "Marvel Studios",
+    "movieCast": ["Chris Pratt", "Zoe Saldana", "Dave Bautista"],
+    "releaseYear": "2014",
+    "poster": "default.png",
+    "posterUrl": "url"
+  },
+  {
+    "movieId": 11,
+    "title": "Doctor Strange",
+    "director": "Scott Derrickson",
+    "studio": "Marvel Studios",
+    "movieCast": ["Benedict Cumberbatch", "Tilda Swinton", "Chiwetel Ejiofor"],
+    "releaseYear": "2016",
+    "poster": "default.png",
+    "posterUrl": "url"
+  },
+  {
+    "movieId": 12,
+    "title": "Man of Steel",
+    "director": "Zack Snyder",
+    "studio": "Warner Bros.",
+    "movieCast": ["Henry Cavill", "Amy Adams", "Michael Shannon"],
+    "releaseYear": "2013",
+    "poster": "default.png",
+    "posterUrl": "url"
+  },
+  {
+    "movieId": 13,
+    "title": "Deadpool",
+    "director": "Tim Miller",
+    "studio": "20th Century Fox",
+    "movieCast": ["Ryan Reynolds", "Morena Baccarin", "T.J. Miller"],
+    "releaseYear": "2016",
+    "poster": "default.png",
+    "posterUrl": "url"
+  },
+  {
+    "movieId": 14,
+    "title": "Wonder Woman",
+    "director": "Patty Jenkins",
+    "studio": "Warner Bros.",
+    "movieCast": ["Gal Gadot", "Chris Pine", "Robin Wright"],
+    "releaseYear": "2017",
+    "poster": "default.png",
+    "posterUrl": "url"
+  }
+
+]

@@ -11,6 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.orm.ObjectOptimisticLockingFailureException;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -27,11 +28,14 @@ public class MovieController {
         this.movieService = movieService;
     }
 
-    // As only "file" and "text" can be send so we need to map the MovieDTO object to String and
+    //1. As only "file" and "text" can be send so we need to map the MovieDTO object to String and
     // later convert it to json
 
-    // We cant directly send the "file" or "json" object so we need to always convert it to a "String" object
+    //2. We cant directly send the "file" or "json" object so we need to always convert it to a "String" object
     // and make sure this "String" object is mapped with "Class" Object to interact with the "Service Layer".
+
+    //3. Use of PreAuthorize means only ADMIN usertype can add Movie.
+    @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping("/add-movie")
     public ResponseEntity<MovieDto> addMovieHandler(@RequestPart MultipartFile file,
                                                     @RequestPart String movieDto) throws IOException {

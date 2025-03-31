@@ -1,0 +1,11 @@
+
+Part-1
+
+1. JWT dependency -> pom.xml
+2. User Model -> with 'refreshToken' Field
+3. User Repo
+4. RefreshToken -> Model
+5. ApplicationConfig -> for beans of important interfaces/classes
+6. JwtService
+7. RefreshTokenService
+8. AuthFilterService
